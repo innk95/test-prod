@@ -175,7 +175,7 @@ eval("/* WEBPACK VAR INJECTION */(function(global) {var scope = (typeof global !
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n    name: \"Index\",\n    data () {\n        return {\n            names: '',\n            times: 0,\n        }\n    },\n    mounted () {\n        this.addName()\n    },\n    methods: {\n        async addName () {\n            for (let i = 0; i < 3000; i++) {\n                this.names += '_____ВАДИМ____'\n                await this.sleep(600)\n            }\n        },\n        sleep(ms) {\n          return new Promise(resolve => setTimeout(resolve, ms));\n        }\n    }\n});\n\n\n//# sourceURL=webpack:///./app/components/Index.vue?./node_modules/vue-loader/lib??vue-loader-options");
+eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n    name: \"Index\",\n    data () {\n        return {\n            names: '',\n            times: 0,\n        }\n    },\n    mounted () {\n        this.addName()\n    },\n    methods: {\n        async addName () {\n            for (let i = 0; i < 3000; i++) {\n                this.names += '_ ___ВАДИМ__ _'\n                await this.sleep(600)\n            }\n        },\n        sleep(ms) {\n          return new Promise(resolve => setTimeout(resolve, ms));\n        }\n    }\n});\n\n\n//# sourceURL=webpack:///./app/components/Index.vue?./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 

@@ -19,7 +19,7 @@
         methods: {
             async addName () {
                 for (let i = 0; i < 3000; i++) {
-                    this.names += '_____ВАДИМ____'
+                    this.names += '_ ___ВАДИМ__ _'
                     await this.sleep(600)
                 }
             },
