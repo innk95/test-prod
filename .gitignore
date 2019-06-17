@@ -1,6 +1,5 @@
 app/static/applications.js
 app/static/src/node_modules/**
 db.sqlite3
-manage.py
 app/migrations/**
 app/static/src/package-lock.json
